@@ -17,7 +17,7 @@ body {
 }
 
 .header-wrapper{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
 }
 
 .header-container{
@@ -35,12 +35,12 @@ body {
 .header-navbar{
     display:flex;
     flex-direction: row;
-    
 }
 
 .header-navbar-button{
     border-bottom: 0px solid transparent;
     padding: 0px 20px 0px 20px;
+    font-size: 1.3em;
     display: flex;
     color: white;
     cursor: pointer;
@@ -51,4 +51,18 @@ body {
 .header-navbar-button:hover{
     transition: .2s;
     border-bottom: 3px solid white;
+}
+
+.footer-container, .footer-wrapper{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(36,31,33,255);
+}
+
+.footer-branding{
+    color: white;
 }
