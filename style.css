@@ -1,7 +1,54 @@
-/* Header total */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-.header-wrapper, .header-container{
-    display:rlex;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Bree Serif', serif;
 }
 
-/* ------------ */
+body {
+    background-color: rgb(255, 217, 4);
+}
+
+.header-wrapper, .header-container{
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(36,31,33,255);
+}
+
+.header-wrapper{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+.header-container{
+    margin: 10px;
+}
+
+.header-logo{
+    margin:0px 10px 0px 10px;
+}
+
+.header-logo img{
+    max-width: 100px;
+}
+
+.header-navbar{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.header-navbar-button{
+    border-bottom: 0px solid transparent;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    transition: .2s;
+}
+
+.header-navbar-button:hover{
+    transition: .2s;
+    border-bottom: 3px solid white;
+}
